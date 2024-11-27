@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stealer</title>
+    <style>
+        .teclas-container {
+            display: flex; /* Usa flexbox para organizar horizontalmente */
+            flex-wrap: wrap; /* Permite que las palabras se envuelvan a la siguiente línea si es necesario */
+            gap: 10px; /* Espacio entre las palabras */
+        }
+        .tecla {
+            padding: 10px 20px; /* Espaciado interno para las palabras */
+            border: 1px solid #ccc; /* Borde alrededor de las palabras */
+            border-radius: 5px; /* Bordes redondeados */
+            background-color: #f0f0f0; /* Color de fondo */
+            font-weight: bold; /* Negrita para mayor claridad */
+        }
+    </style>
+</head>
+<body>
+    <h1>Informacion Registrada</h1>
+    <div class="teclas-container">
+        {% for tecla in teclas %}
+            <div class="tecla">{{ tecla }}</div> <!-- Cambiado a un div para cada palabra -->
+        {% endfor %}
+    </div>
+    <a href="/">Volver</a>
+</body>
+</html>
+
+
+
