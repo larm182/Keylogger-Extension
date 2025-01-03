@@ -1,3 +1,8 @@
+#!/usr/bin/python
+#-*- coding: utf-8 -*-
+#Autor: Luis Angel Ramirez Mendoza
+
+
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 
