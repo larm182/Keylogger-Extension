@@ -6,3 +6,8 @@ Interfaz intuitiva: Permite visualizar las pulsaciones en un panel de administra
 Compatible con múltiples navegadores: Optimizada para funcionar en diferentes plataformas y entornos de prueba.
 Seguridad incorporada: Proporciona mecanismos para garantizar que la extensión solo sea utilizada en entornos legales y éticos.
 Fácil implementación: Diseñada con una estructura modular que facilita su integración y personalización.
+
+- Video Demo: 
+
+https://github.com/user-attachments/assets/acd851e0-d011-4de8-ab31-14bb799b08d4
+
